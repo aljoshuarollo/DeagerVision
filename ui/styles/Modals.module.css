@@ -1,0 +1,60 @@
+.buttons {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px;
+}
+
+.headers {
+    justify-content: center;
+}
+
+.headers h2 {
+    font-weight: bold;
+}
+
+.body {
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    border: 1px solid grey;
+    padding: 10px;
+}
+
+.body h4 {
+    color: white;
+}
+
+.body span, .basic span, .headers span, .editGoal span {
+    font-weight: bold;
+    color: #2397a8;
+}
+
+.basic {
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.editGoal {
+    justify-content: center;
+    padding: 10px;
+}
+
+.editGoal h5 {
+    border: 1px solid lightgrey;
+    padding: 15px;
+}
+
+.alert {
+    justify-content: center;
+    text-align: center;
+    color: red;
+}
+
+.alert span {
+    font-size: 20px;
+}

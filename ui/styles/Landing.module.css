@@ -1,0 +1,53 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.mainStyle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    position: relative;
+    padding-top: 20vh;
+}
+
+.mainStyle h1 {
+    color: #111; 
+    font-family: 'Helvetica Neue', sans-serif; 
+    font-size: 110px; 
+    font-weight: bold; 
+    letter-spacing: -1px; 
+    line-height: 1; 
+    text-align: center;
+}
+
+.mainStyle p { 
+    color: #111; 
+    font-family: 'Open Sans', sans-serif; 
+    font-size: 25px; 
+    font-weight: 300; 
+    line-height: 32px;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    width: 525px;
+}
+
+.mainStyle span {
+    color: #2397a8;
+    font-weight: bold;
+}
+
+.mainStyle div {
+    color: #111;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 32px;
+    font-weight: 300;
+    line-height: 32px;
+    text-align: center;
+    width: 700px;
+}
+

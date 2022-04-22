@@ -1,0 +1,48 @@
+.container {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.table_header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.table_header h2 {
+    font-size: 60px;
+}
+
+.button_layout {
+    display: flex;
+    justify-self: center;
+    align-items: center;
+}
+
+.button_layout button {
+    padding: 5px;
+    margin: 2px 1px;
+    height: 40px;
+}
+
+.list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.clientLink {
+    color: #2397a8;
+}
+
+.clientLink:hover {
+    color: #32d7f0;
+    transform: scale(1.05);
+    cursor: pointer;
+}

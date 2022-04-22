@@ -1,0 +1,50 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container h1 {
+    display: flex;
+    font-size: 70px;
+    padding-bottom: 20px;
+    justify-self: center;
+}
+
+.loginForm {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border: 1px solid black;
+    padding: 50px 60px 25px;
+    align-items: center;
+}
+
+.registerForm {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border: 1px solid black;
+    padding:50px 60px 25px;
+}
+
+
+.registerForm h1 {
+    font-size: 70px;
+}
+
+.buttonForm {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px;
+}
+
+.radioButtonsForm {
+    display: flex;
+    justify-content: space-evenly;
+    flex-basis: 130px;
+    margin-top: 10px;
+    font-size: 20px;
+}

@@ -1,0 +1,71 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 15vh;
+    padding-bottom: 2vh;
+}
+
+.myProfile {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.myProfile h1 {
+    font-size: 75px;
+}
+
+.userName {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    width: 50px;
+    min-width: 150px;
+}
+
+.userName h2 {
+    font-size: 35px;
+}
+
+.search {
+    padding-left: 20px;
+    align-items: center;
+}
+
+.leftSide {
+    display: flex;
+    align-items: center;
+    border: solid;
+    border-radius: 25px;
+    min-width: 700px;
+    margin: 20px 15vw 0px 15vw;
+    justify-content: space-between;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 10px 10px 30px;
+    width: 180px;
+    min-width: 180px;
+    height: 180px;
+    border: solid;
+    border-radius: 15px;
+}
+
+.addButton {
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 238px 5px 20px;
+}
+
+.priority {
+    margin-right: 2vw;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+}
